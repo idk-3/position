@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+@font-face {
+    font-family:'fuen1';
+    src: url(./fuente/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'fuen1';
+    /*fondo pagina principal*/
+    background-image: url('imagenes/fondop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+.logo{
+    padding:10px;
+}
+
+.logo img{
+    width:30px;
+    border-radius: 50%;
+}
+
+.contenedor{
+    max-width: 55rem;
+    width: 90%;
+    margin: 2 rem auto;
+}
+.contenedor .fondo{
+    background-image: url('imagenes/fondo.png');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 58%;
+    position: relative;
+}
+.contenedor .fondo .section{
+    width: 31%;
+    height: 14%;
+    border-radius: 1.5625rem;
+   /*  border: 1px solid red; */
+    position: absolute;
+}
+.contenedor .fondo .section:hover{
+    background-color: aliceblue;
+    transform: scale(1 , 2);
+    transition: all 2s;
+}
+.contenedor .fondo .section.uno{
+    top: 8.5%;
+    left: 8%;
+}
+.contenedor .fondo .section.dos{
+    right: 36%;
+    bottom: 66%;
+    width: 26%;
+}
+.contenedor .fondo .section.tres{
+    right: 13%;
+    bottom: 39%;
+    width: 30%;
+}
+
+.contenedor .fondo .section.cuatro{
+    right: 5%;
+    bottom: 12%;
+    width: 32%;
+}
+.contenedor .fondo .section.cinco{
+    right: 2%;
+    bottom: 73%;
+    width: 27%;
+}
+.contenedor .fondo .section.seis{
+    right: 60%;
+    bottom: 47%;
+    width: 28%;
+}
+.contenedor .fondo .section.siete{
+    right: 62%;
+    bottom: 14%;
+    width: 30%;
+}
+.contenedor .fondo .ocho img {
+    position: absolute;
+    width: 85px;
+    top: 69%;
+    left: 45%;
+}
